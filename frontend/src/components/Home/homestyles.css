@@ -1,0 +1,236 @@
+.heroSection {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .heroSection .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heroSection .title {
+    margin-bottom: 2rem;
+  }
+  
+  .heroSection .image {
+    max-width: 100%;
+    width: 80%; /* Adjust this value to control the image width */
+    margin: 0 auto 1.5rem;
+  }
+  
+  .heroSection .image img {
+    width: 100%; /* Ensures the image scales within its container */
+    max-width: 600px; /* Optional: set a maximum width for larger screens */
+    height: auto; /* Keeps the image's aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+  }
+  .bg {
+    padding: 2rem;
+    background-image: url('./1730746629740.jpg'); /* Add path for jobs listing background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed during scroll */
+}
+  
+  .heroSection h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .heroSection p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 180px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #3b82f6;
+  }
+  
+  .content p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+  .howitworks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .circular-banner {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  .circular-card {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-account {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .find-job {
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .apply-job {
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  /* Optional arrow styles */
+  .arrow {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+  }
+  .curved-arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Prevents SVG from interfering with mouse events */
+}
+
+.chart-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .chart-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .chart-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  svg {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: white; /* Text color */
+  }
+  
+  /* Bar colors */
+  rect:nth-child(1) {
+    fill: #3366cc;
+  }
+  
+  rect:nth-child(2) {
+    fill: #ff9933;
+  }
+  
+  rect:nth-child(3) {
+    fill: #99cc00;
+  }
+  
+  rect:nth-child(4) {
+    fill: #cc3300;
+  }
+  .heroSection h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: white; /* Darker shade for better contrast */
+  }
+  
+  .heroSection p {
+    font-size: 1.1rem;
+    color: white; /* Slightly darker gray for better readability */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .chart-container h2 {
+    color: white; /* Change heading color to white */
+  }
+  
+  .chart-container p {
+    color: white; /* Change paragraph color to white */
+  }
+  
+
+  .chart-container .legend text {
+    fill: white; /* Change legend text color to white */
+  }
+  .legend-text {
+    fill: white; /* Change legend text color to white */
+  }
+  
+  .chart-container svg rect {
+    stroke: white;
+    stroke-width: 1px;
+  }
+  
+  .chart-container .software-developer {
+    fill: #1f77b4;
+  }
+  
+  .chart-container .data-scientist {
+    fill: #ff7f0e;
+  }
+  
+  .chart-container .cloud-engineer {
+    fill: #2ca02c;
+  }
+  
+  .chart-container .cybersecurity-analyst {
+    fill: #d62728;
+  }
+  

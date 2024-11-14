@@ -1,0 +1,317 @@
+/* Application Page Styles */
+.application-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    background-color: #f8f9fc;
+    margin: 0;
+    flex-direction: column;
+    min-height:900px;
+}
+
+/* Centering content for Application Container */
+
+.application-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 1000px;
+    min-height:900px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centers within its parent */
+}
+
+/* Header Styles */
+.application-header {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* My Applications Page Styles */
+.my-applications-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: #f8f9fc;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.my-applications-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    text-align: center; /* Center text within the container */
+}
+
+.my-applications-container h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.my-applications-container h4 {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
+
+/* My Applications Card Styles */
+.my-applications-card {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    background-color: #f1f5f9;
+    padding: 1.5rem; /* Slightly increased padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem; /* Space between cards */
+    gap: 1rem; /* Space between elements */
+    min-height: 200px; /* Adjusted height */
+}
+
+/* Text Formatting Inside Application Cards */
+.my-applications-detail {
+    flex: 1; /* Allow this section to take available space */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.my-applications-detail p {
+    font-size: 1rem; /* Increased font size for readability */
+    color: #333;
+    margin: 0.3rem 0; /* Margin for spacing between paragraphs */
+}
+
+.my-applications-detail p span {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Resume Image */
+.my-applications-resume {
+    flex-shrink: 0; /* Prevents the resume section from shrinking */
+}
+
+.my-applications-resume img {
+    width: 100px; /* Adjusted width for a better fit */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    border-radius: 4px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.my-applications-resume img:hover {
+    transform: scale(1.1);
+}
+
+/* Button Area */
+.my-applications-btn-area {
+    margin-top: 1rem; /* Space above button */
+    text-align: center; /* Center the button */
+}
+
+.my-applications-btn-area button {
+    padding: 0.5rem 1rem; /* Adjusted padding */
+    font-size: 1rem; /* Larger font size for buttons */
+    color: #ffffff;
+    background-color: #f56565;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.my-applications-btn-area button:hover {
+    background-color: #e53e3e;
+}
+
+/* Resume Modal Styles */
+.my-applications-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+/* Resume Modal Styles */
+.my-applications-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.my-applications-modal-content {
+    background-color: #ffffff;
+    padding: 2rem; /* Increased padding for better spacing */
+    border-radius: 8px;
+    max-width: 90%; /* Increase max-width for larger modal */
+    max-height: 90%; /* Maintain aspect ratio with height */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+
+.my-applications-modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.my-applications-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.my-applications-modal-close:hover {
+    color: #e53e3e;
+}
+
+@media (max-width: 768px) {
+    .my-applications-container {
+        padding: 1.5rem;
+    }
+
+    .my-applications-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .my-applications-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .my-applications-resume img {
+        width: 80px; /* Adjusted for smaller screens */
+    }
+}
+/* Application Page Styles */
+.application-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    min-height: 100vh;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Centering content for Application Container */
+.application-container {
+    background-color: #ffffff;
+    padding: 2.5rem; /* Increased padding for a spacious look */
+    max-width: 600px; /* Narrower container */
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centers within its parent */
+}
+
+/* Header Styles */
+.application-header {
+    font-size: 2rem; /* Larger font size */
+    color: #495057; /* Darker gray */
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700; /* Bolder font */
+}
+
+/* Form Styles */
+.application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Increased spacing between inputs */
+}
+
+/* Input Styles */
+.application-form input,
+.application-form textarea {
+    padding: 1rem; /* Increased padding */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.application-form input:focus,
+.application-form textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* File Input Styles */
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-input-label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #495057; /* Darker gray for the label */
+}
+
+/* Button Styles */
+.submit-button {
+    padding: 0.75rem 1.5rem; /* Larger button */
+    font-size: 1.1rem; /* Increased font size */
+    color: #ffffff;
+    background-color: #28a745; /* Green background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform */
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .application-container {
+        padding: 2rem; /* Reduced padding on smaller screens */
+    }
+    
+    .application-header {
+        font-size: 1.8rem; /* Smaller header */
+    }
+
+    .submit-button {
+        padding: 0.5rem 1rem; /* Adjusted button padding */
+    }
+}
